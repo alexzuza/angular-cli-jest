@@ -13,9 +13,18 @@
     "typeRoots": [
       "node_modules/@types"
     ],
+    "types": ["jest"],
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "zuz": [
+        "dist/zuz"
+      ],
+      "zuz/*": [
+        "dist/zuz/*"
+      ]
+    }
   }
 }
